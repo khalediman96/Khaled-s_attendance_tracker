@@ -10,3 +10,4 @@ openpyxl==3.1.2
 # PyQt5==5.15.11
 gunicorn
 Flask>=2.3.0
+Flask-SocketIO>=5.3.0
