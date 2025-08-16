@@ -1,0 +1,634 @@
+2025-08-15 08:30:09,999 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 08:30:10,007 - __main__ - ERROR - Error starting application: 'AttendanceGUI' object has no attribute 'run'
+2025-08-15 08:31:19,237 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 08:31:20,426 - win_events - INFO - Registered callback for login
+2025-08-15 08:31:20,433 - win_events - INFO - Registered callback for logout
+2025-08-15 08:34:52,003 - pdf_handler - WARNING - PDF has no form fields
+2025-08-15 08:34:52,003 - pdf_handler - INFO - Using fallback PDF overlay method
+2025-08-15 08:34:52,147 - pdf_handler - INFO - PDF filled successfully: filled_pdfs\TS Format_filled_20250815_083452.pdf
+2025-08-15 08:35:05,012 - pdf_handler - ERROR - Error filling PDF: 'NoneType' object has no attribute 'strftime'
+2025-08-15 08:36:59,161 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 08:36:59,687 - win_events - INFO - Registered callback for login
+2025-08-15 08:36:59,688 - win_events - INFO - Registered callback for logout
+2025-08-15 08:37:08,442 - pdf_handler - WARNING - PDF has no form fields
+2025-08-15 08:37:08,443 - pdf_handler - INFO - Using fallback PDF overlay method
+2025-08-15 08:37:08,669 - pdf_handler - INFO - PDF filled successfully: filled_pdfs\TS Format_filled_20250815_083708.pdf
+2025-08-15 08:37:10,500 - pdf_handler - ERROR - Error filling PDF: 'NoneType' object has no attribute 'strftime'
+2025-08-15 08:38:18,738 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 08:38:18,808 - win_events - INFO - Registered callback for login
+2025-08-15 08:38:18,808 - win_events - INFO - Registered callback for logout
+2025-08-15 08:38:45,144 - pdf_handler - WARNING - PDF has no form fields
+2025-08-15 08:38:45,145 - pdf_handler - INFO - Using fallback PDF overlay method
+2025-08-15 08:38:45,307 - pdf_handler - INFO - PDF filled successfully: filled_pdfs\TS Format_filled_20250815_083845.pdf
+2025-08-15 08:38:50,052 - pdf_handler - ERROR - Error filling PDF: 'NoneType' object has no attribute 'strftime'
+2025-08-15 09:05:08,559 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:05:08,695 - win_events - INFO - Registered callback for login
+2025-08-15 09:05:08,695 - win_events - INFO - Registered callback for logout
+2025-08-15 09:10:36,748 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:10:36,829 - win_events - INFO - Registered callback for login
+2025-08-15 09:10:36,831 - win_events - INFO - Registered callback for logout
+2025-08-15 09:11:30,266 - word_handler - INFO - Added new month field 'August 2025' to document
+2025-08-15 09:11:30,268 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:11:30,289 - word_handler - INFO - Word document filled successfully: filled_pdfs\Attendance_filled_20250815_091130.docx
+2025-08-15 09:12:58,293 - word_handler - INFO - Added new month field 'August 2025' to document
+2025-08-15 09:12:58,388 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:12:58,466 - word_handler - INFO - Word document filled successfully: filled_pdfs\Attendance_filled_20250815_091258.docx
+2025-08-15 09:14:23,658 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:14:24,209 - win_events - INFO - Registered callback for login
+2025-08-15 09:14:24,218 - win_events - INFO - Registered callback for logout
+2025-08-15 09:14:37,863 - word_handler - INFO - Added new month field 'August 2025' to document
+2025-08-15 09:14:37,871 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:14:37,889 - word_handler - INFO - Word document filled successfully: filled_pdfs\Attendance_filled_20250815_091437.docx
+2025-08-15 09:14:44,279 - word_handler - INFO - Added new month field 'August 2025' to document
+2025-08-15 09:14:44,281 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:14:44,300 - word_handler - INFO - Word document filled successfully: filled_pdfs\Attendance_filled_20250815_091444.docx
+2025-08-15 09:27:02,182 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:27:02,257 - win_events - INFO - Registered callback for login
+2025-08-15 09:27:02,258 - win_events - INFO - Registered callback for logout
+2025-08-15 09:27:13,606 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:27:13,607 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:27:13,611 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:27:13,612 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:27:13,612 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:27:13,613 - word_handler - INFO - Filled time in: 09:27:13
+2025-08-15 09:27:13,629 - word_handler - INFO - Word document filled successfully: filled_pdfs\Attendance_filled_20250815_092713.docx
+2025-08-15 09:27:17,636 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:27:17,639 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:27:17,646 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:27:17,647 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:27:17,648 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:27:17,649 - word_handler - INFO - Filled time out: 09:27:17
+2025-08-15 09:27:17,668 - word_handler - INFO - Word document filled successfully: filled_pdfs\Attendance_filled_20250815_092717.docx
+2025-08-15 09:36:22,387 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:36:22,650 - win_events - INFO - Registered callback for login
+2025-08-15 09:36:22,662 - win_events - INFO - Registered callback for logout
+2025-08-15 09:36:29,837 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:36:29,841 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:36:29,854 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:36:29,855 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:36:29,857 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:36:29,858 - word_handler - INFO - Filled time in: 09:36:29
+2025-08-15 09:36:29,883 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_093629.docx
+2025-08-15 09:36:33,617 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:36:33,620 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:36:33,633 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:36:33,634 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:36:33,635 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:36:33,637 - word_handler - INFO - Filled time out: 09:36:33
+2025-08-15 09:36:33,661 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_093633.docx
+2025-08-15 09:44:17,704 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:44:17,951 - win_events - INFO - Registered callback for login
+2025-08-15 09:44:17,954 - win_events - INFO - Registered callback for logout
+2025-08-15 09:44:27,013 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:44:27,055 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:44:27,153 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:44:27,154 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:44:27,155 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:44:27,156 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:44:27,157 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:44:27,157 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:44:27,158 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:44:27,159 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:44:27,171 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:44:27,172 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:44:27,173 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:44:27,175 - word_handler - INFO - Filled time in: 09:44:26
+2025-08-15 09:44:27,175 - word_handler - INFO - No time_out provided - keeping existing value
+2025-08-15 09:44:27,176 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 09:44:27,177 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:44:27,178 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:44:27,179 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:44:27,179 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:44:27,180 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:44:27,180 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:44:27,181 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:44:27,182 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:44:27,182 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:44:27,185 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 09:44:27,189 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:44:27,189 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 09:44:27,192 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 09:44:27,195 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:44:27,196 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 09:44:27,220 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_094427.docx
+2025-08-15 09:44:32,580 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:44:32,582 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:44:32,583 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:44:32,584 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:44:32,585 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:44:32,586 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:44:32,587 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:44:32,587 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:44:32,588 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:44:32,588 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:44:32,601 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:44:32,602 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:44:32,603 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:44:32,604 - word_handler - INFO - No time_in provided - keeping existing value
+2025-08-15 09:44:32,605 - word_handler - INFO - Filled time out: 09:44:32
+2025-08-15 09:44:32,629 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_094432.docx
+2025-08-15 09:44:53,675 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:44:53,677 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:44:53,678 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:44:53,679 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:44:53,679 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:44:53,680 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:44:53,681 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:44:53,682 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:44:53,682 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:44:53,682 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:44:53,693 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:44:53,694 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:44:53,695 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:44:53,696 - word_handler - INFO - No time_in provided - keeping existing value
+2025-08-15 09:44:53,697 - word_handler - INFO - Filled time out: 09:44:53
+2025-08-15 09:44:53,718 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_094453.docx
+2025-08-15 09:45:37,294 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:45:37,856 - win_events - INFO - Registered callback for login
+2025-08-15 09:45:37,856 - win_events - INFO - Registered callback for logout
+2025-08-15 09:46:02,736 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:46:02,739 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:46:02,739 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:46:02,740 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:46:02,741 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:46:02,742 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:46:02,742 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:46:02,743 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:46:02,744 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:46:02,744 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:46:02,757 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:46:02,759 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:46:02,760 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:46:02,761 - word_handler - INFO - Filled time in: 09:46:02
+2025-08-15 09:46:02,762 - word_handler - INFO - No time_out provided - keeping existing value
+2025-08-15 09:46:02,763 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 09:46:02,764 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:46:02,764 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:46:02,765 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:46:02,766 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:46:02,766 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:46:02,767 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:46:02,835 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:46:02,837 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:46:02,838 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:46:02,841 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 09:46:02,871 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:46:02,884 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 09:46:02,888 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 09:46:02,904 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:46:02,931 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 09:46:02,965 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_094602.docx
+2025-08-15 09:46:05,674 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:46:05,679 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:46:05,679 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:46:05,680 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:46:05,681 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:46:05,684 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:46:05,687 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:46:05,714 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:46:05,714 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:46:05,732 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:46:05,748 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:46:05,755 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:46:05,766 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:46:05,767 - word_handler - INFO - No time_in provided - keeping existing value
+2025-08-15 09:46:05,768 - word_handler - INFO - Filled time out: 09:46:05
+2025-08-15 09:46:05,792 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_094605.docx
+2025-08-15 09:54:09,414 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:54:09,417 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:54:09,417 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:54:09,418 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:54:09,419 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:54:09,420 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:54:09,422 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:54:09,423 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:54:09,424 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:54:09,424 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:54:09,430 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:54:09,431 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:54:09,433 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:54:09,435 - word_handler - INFO - Filled time in: 09:54:09
+2025-08-15 09:54:09,436 - word_handler - INFO - No time_out provided - keeping existing value
+2025-08-15 09:54:09,437 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 09:54:09,438 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:54:09,439 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:54:09,441 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:54:09,441 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:54:09,442 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:54:09,442 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:54:09,443 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:54:09,443 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:54:09,443 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:54:09,444 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 09:54:09,445 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:54:09,446 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 09:54:09,447 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 09:54:09,449 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:54:09,449 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 09:54:09,467 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_095409.docx
+2025-08-15 09:56:06,444 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:56:06,446 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:56:06,446 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:56:06,447 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:56:06,447 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:56:06,448 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:56:06,448 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:56:06,449 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:56:06,449 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:56:06,449 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:56:06,458 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:56:06,460 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:56:06,461 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:56:06,461 - word_handler - INFO - No time_in provided - keeping existing value
+2025-08-15 09:56:06,462 - word_handler - INFO - Filled time out: 09:56:06
+2025-08-15 09:56:06,478 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_095606.docx
+2025-08-15 09:57:34,216 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 09:57:34,287 - win_events - INFO - Registered callback for login
+2025-08-15 09:57:34,287 - win_events - INFO - Registered callback for logout
+2025-08-15 09:57:59,715 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:57:59,717 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:57:59,717 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:57:59,717 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:57:59,717 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:57:59,717 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:57:59,718 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:57:59,718 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:57:59,718 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:57:59,719 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:57:59,723 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:57:59,724 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:57:59,725 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:57:59,726 - word_handler - INFO - Filled time in: 09:57:59
+2025-08-15 09:57:59,726 - word_handler - INFO - No time_out provided - keeping existing value
+2025-08-15 09:57:59,726 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 09:57:59,727 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:57:59,727 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:57:59,728 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:57:59,728 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:57:59,728 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:57:59,729 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:57:59,729 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:57:59,729 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:57:59,730 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:57:59,731 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 09:57:59,734 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:57:59,735 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 09:57:59,737 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 09:57:59,740 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 09:57:59,740 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 09:57:59,757 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_095759.docx
+2025-08-15 09:58:03,635 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 09:58:03,638 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 09:58:03,638 - word_handler - INFO - Found day column at index 0
+2025-08-15 09:58:03,639 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 09:58:03,639 - word_handler - INFO - Found date column at index 1
+2025-08-15 09:58:03,640 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 09:58:03,641 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 09:58:03,642 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 09:58:03,644 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 09:58:03,644 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 09:58:03,655 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 09:58:03,657 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 09:58:03,660 - word_handler - INFO - Filled day: Friday
+2025-08-15 09:58:03,660 - word_handler - INFO - No time_in provided - keeping existing value
+2025-08-15 09:58:03,662 - word_handler - INFO - Filled time out: 09:58:03
+2025-08-15 09:58:03,681 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_095803.docx
+2025-08-15 10:00:24,970 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:00:25,383 - win_events - INFO - Registered callback for login
+2025-08-15 10:00:25,388 - win_events - INFO - Registered callback for logout
+2025-08-15 10:00:29,108 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 10:00:29,118 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:00:29,124 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:00:29,125 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:00:29,125 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:00:29,126 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:00:29,127 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:00:29,138 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:00:29,140 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:00:29,147 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:00:29,160 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 10:00:29,176 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 10:00:29,194 - word_handler - INFO - Filled day: Friday
+2025-08-15 10:00:29,195 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 10:00:29,201 - word_handler - INFO - Filled time in: 10:00:29
+2025-08-15 10:00:29,205 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:00:29,206 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 10:00:29,217 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 10:00:29,224 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:00:29,241 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:00:29,243 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:00:29,244 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:00:29,246 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:00:29,249 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:00:29,268 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:00:29,271 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:00:29,272 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:00:29,274 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 10:00:29,281 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:00:29,294 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 10:00:29,297 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 10:00:29,347 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:00:29,361 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 10:00:29,367 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_100029.docx
+2025-08-15 10:00:29,405 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_100029.docx
+2025-08-15 10:00:30,961 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_100029.docx
+2025-08-15 10:00:31,016 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 10:00:31,027 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:00:31,043 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:00:31,057 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:00:31,066 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:00:31,098 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:00:31,123 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:00:31,133 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:00:31,150 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:00:31,155 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:00:31,199 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 10:00:31,220 - word_handler - INFO - Time In cell current content: '10:00:29'
+2025-08-15 10:00:31,221 - word_handler - INFO - No time_in provided - keeping existing value: '10:00:29'
+2025-08-15 10:00:31,223 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:00:31,225 - word_handler - INFO - Filled time out: 10:00:30
+2025-08-15 10:00:31,226 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_100029.docx
+2025-08-15 10:00:31,240 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_100029.docx
+2025-08-15 10:03:48,713 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:03:49,178 - win_events - INFO - Registered callback for login
+2025-08-15 10:03:49,205 - win_events - INFO - Registered callback for logout
+2025-08-15 10:03:52,092 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 10:03:52,171 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:03:52,233 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:03:52,234 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:03:52,235 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:03:52,235 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:03:52,235 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:03:52,236 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:03:52,236 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:03:52,236 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:03:52,244 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 10:03:52,245 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 10:03:52,247 - word_handler - INFO - Filled day: Friday
+2025-08-15 10:03:52,248 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 10:03:52,248 - word_handler - INFO - Filled time in: 10:03:52
+2025-08-15 10:03:52,249 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:03:52,249 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 10:03:52,324 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 10:03:52,373 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:03:52,376 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:03:52,377 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:03:52,420 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:03:52,424 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:03:52,424 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:03:52,426 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:03:52,426 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:03:52,427 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:03:52,429 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 10:03:52,442 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:03:52,459 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 10:03:52,461 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 10:03:52,478 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:03:52,495 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 10:03:52,512 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_100352.docx
+2025-08-15 10:03:52,530 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_100352.docx
+2025-08-15 10:03:59,271 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_100352.docx
+2025-08-15 10:03:59,315 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 10:03:59,355 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:03:59,366 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:03:59,376 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:03:59,381 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:03:59,383 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:03:59,384 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:03:59,385 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:03:59,397 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:03:59,397 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:03:59,411 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 10:03:59,421 - word_handler - INFO - Time In cell current content: '10:03:52'
+2025-08-15 10:03:59,452 - word_handler - INFO - No time_in provided - keeping existing value: '10:03:52'
+2025-08-15 10:03:59,453 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:03:59,486 - word_handler - INFO - Filled time out: 10:03:59
+2025-08-15 10:03:59,486 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_100352.docx
+2025-08-15 10:03:59,500 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_100352.docx
+2025-08-15 10:09:13,588 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:09:14,600 - __main__ - ERROR - Error starting application: Invalid format string
+2025-08-15 10:09:47,792 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:09:50,290 - win_events - INFO - Registered callback for login
+2025-08-15 10:09:50,291 - win_events - INFO - Registered callback for logout
+2025-08-15 10:11:21,283 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 10:11:21,284 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:11:21,285 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:11:21,285 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:11:21,285 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:11:21,286 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:11:21,286 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:11:21,286 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:11:21,287 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:11:21,287 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:11:21,293 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 10:11:21,294 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 10:11:21,294 - word_handler - INFO - Filled day: Friday
+2025-08-15 10:11:21,295 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 10:11:21,295 - word_handler - INFO - Filled time in: 10:11:21
+2025-08-15 10:11:21,295 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:11:21,296 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 10:11:21,296 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 10:11:21,297 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:11:21,297 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:11:21,298 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:11:21,298 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:11:21,299 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:11:21,300 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:11:21,300 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:11:21,301 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:11:21,301 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:11:21,303 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 10:11:21,306 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:11:21,306 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 10:11:21,308 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 10:11:21,310 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:11:21,311 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 10:11:21,313 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_101121.docx
+2025-08-15 10:11:21,331 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_101121.docx
+2025-08-15 10:11:33,105 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_101121.docx
+2025-08-15 10:11:33,130 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 10:11:33,131 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:11:33,131 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:11:33,132 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:11:33,132 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:11:33,133 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:11:33,133 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:11:33,134 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:11:33,134 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:11:33,137 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:11:33,147 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 10:11:33,148 - word_handler - INFO - Time In cell current content: '10:11:21'
+2025-08-15 10:11:33,148 - word_handler - INFO - No time_in provided - keeping existing value: '10:11:21'
+2025-08-15 10:11:33,149 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:11:33,149 - word_handler - INFO - Filled time out: 10:11:33
+2025-08-15 10:11:33,150 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_101121.docx
+2025-08-15 10:11:33,160 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_101121.docx
+2025-08-15 10:15:52,351 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:15:54,898 - win_events - INFO - Registered callback for login
+2025-08-15 10:15:54,902 - win_events - INFO - Registered callback for logout
+2025-08-15 10:16:04,310 - win_events - INFO - Started Windows event monitoring
+2025-08-15 10:16:04,500 - win_events - INFO - Login detected at 2025-08-15 10:16:04.499564
+2025-08-15 10:16:04,510 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:05,515 - win_events - INFO - Login detected at 2025-08-15 10:16:05.514976
+2025-08-15 10:16:05,532 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:06,541 - win_events - INFO - Login detected at 2025-08-15 10:16:06.541747
+2025-08-15 10:16:06,554 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:07,560 - win_events - INFO - Login detected at 2025-08-15 10:16:07.560410
+2025-08-15 10:16:07,569 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:08,586 - win_events - INFO - Login detected at 2025-08-15 10:16:08.586134
+2025-08-15 10:16:08,615 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:09,624 - win_events - INFO - Login detected at 2025-08-15 10:16:09.624016
+2025-08-15 10:16:09,645 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:10,660 - win_events - INFO - Login detected at 2025-08-15 10:16:10.660391
+2025-08-15 10:16:10,670 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:11,686 - win_events - INFO - Login detected at 2025-08-15 10:16:11.686161
+2025-08-15 10:16:11,711 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:12,725 - win_events - INFO - Login detected at 2025-08-15 10:16:12.724896
+2025-08-15 10:16:12,742 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:13,751 - win_events - INFO - Login detected at 2025-08-15 10:16:13.751036
+2025-08-15 10:16:13,774 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:14,790 - win_events - INFO - Login detected at 2025-08-15 10:16:14.790277
+2025-08-15 10:16:14,803 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:15,808 - win_events - INFO - Login detected at 2025-08-15 10:16:15.808813
+2025-08-15 10:16:15,827 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:16,833 - win_events - INFO - Login detected at 2025-08-15 10:16:16.833150
+2025-08-15 10:16:16,850 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:17,859 - win_events - INFO - Login detected at 2025-08-15 10:16:17.859714
+2025-08-15 10:16:17,875 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:18,879 - win_events - INFO - Login detected at 2025-08-15 10:16:18.879484
+2025-08-15 10:16:18,892 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:19,908 - win_events - INFO - Login detected at 2025-08-15 10:16:19.908480
+2025-08-15 10:16:19,921 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:20,925 - win_events - INFO - Login detected at 2025-08-15 10:16:20.925066
+2025-08-15 10:16:20,956 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:21,963 - win_events - INFO - Login detected at 2025-08-15 10:16:21.962998
+2025-08-15 10:16:21,979 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:22,997 - win_events - INFO - Login detected at 2025-08-15 10:16:22.997073
+2025-08-15 10:16:23,031 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:24,039 - win_events - INFO - Login detected at 2025-08-15 10:16:24.039729
+2025-08-15 10:16:24,061 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:25,080 - win_events - INFO - Login detected at 2025-08-15 10:16:25.079770
+2025-08-15 10:16:25,114 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:26,122 - win_events - INFO - Login detected at 2025-08-15 10:16:26.121934
+2025-08-15 10:16:26,138 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:27,150 - win_events - INFO - Login detected at 2025-08-15 10:16:27.150083
+2025-08-15 10:16:27,175 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:28,195 - win_events - INFO - Login detected at 2025-08-15 10:16:28.195834
+2025-08-15 10:16:28,205 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:29,220 - win_events - INFO - Login detected at 2025-08-15 10:16:29.219987
+2025-08-15 10:16:29,239 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:30,246 - win_events - INFO - Login detected at 2025-08-15 10:16:30.246418
+2025-08-15 10:16:30,282 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:31,361 - win_events - INFO - Login detected at 2025-08-15 10:16:31.361023
+2025-08-15 10:16:31,500 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:32,512 - win_events - INFO - Login detected at 2025-08-15 10:16:32.512458
+2025-08-15 10:16:32,532 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:33,548 - win_events - INFO - Login detected at 2025-08-15 10:16:33.548149
+2025-08-15 10:16:33,574 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:34,609 - win_events - INFO - Login detected at 2025-08-15 10:16:34.609218
+2025-08-15 10:16:34,633 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:35,638 - win_events - INFO - Login detected at 2025-08-15 10:16:35.638762
+2025-08-15 10:16:35,654 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:36,667 - win_events - INFO - Login detected at 2025-08-15 10:16:36.666932
+2025-08-15 10:16:36,701 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:37,709 - win_events - INFO - Login detected at 2025-08-15 10:16:37.708732
+2025-08-15 10:16:37,757 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:38,775 - win_events - INFO - Login detected at 2025-08-15 10:16:38.774851
+2025-08-15 10:16:38,829 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:39,835 - win_events - INFO - Login detected at 2025-08-15 10:16:39.834715
+2025-08-15 10:16:39,877 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:40,891 - win_events - INFO - Login detected at 2025-08-15 10:16:40.891088
+2025-08-15 10:16:40,916 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:41,927 - win_events - INFO - Login detected at 2025-08-15 10:16:41.927314
+2025-08-15 10:16:41,947 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:42,974 - win_events - INFO - Login detected at 2025-08-15 10:16:42.974447
+2025-08-15 10:16:43,009 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:44,026 - win_events - INFO - Login detected at 2025-08-15 10:16:44.026327
+2025-08-15 10:16:44,079 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:45,095 - win_events - INFO - Login detected at 2025-08-15 10:16:45.094921
+2025-08-15 10:16:45,125 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:46,128 - win_events - INFO - Login detected at 2025-08-15 10:16:46.128622
+2025-08-15 10:16:46,150 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:47,169 - win_events - INFO - Login detected at 2025-08-15 10:16:47.169540
+2025-08-15 10:16:47,200 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:48,203 - win_events - INFO - Login detected at 2025-08-15 10:16:48.203504
+2025-08-15 10:16:48,254 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:49,266 - win_events - INFO - Login detected at 2025-08-15 10:16:49.265954
+2025-08-15 10:16:49,285 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:50,300 - win_events - INFO - Login detected at 2025-08-15 10:16:50.300440
+2025-08-15 10:16:50,366 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:51,378 - win_events - INFO - Login detected at 2025-08-15 10:16:51.378137
+2025-08-15 10:16:51,394 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:52,408 - win_events - INFO - Login detected at 2025-08-15 10:16:52.408573
+2025-08-15 10:16:52,427 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:53,438 - win_events - INFO - Login detected at 2025-08-15 10:16:53.438123
+2025-08-15 10:16:53,489 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:54,508 - win_events - INFO - Login detected at 2025-08-15 10:16:54.507723
+2025-08-15 10:16:54,541 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:55,544 - win_events - INFO - Login detected at 2025-08-15 10:16:55.544318
+2025-08-15 10:16:55,557 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:56,562 - win_events - INFO - Login detected at 2025-08-15 10:16:56.562763
+2025-08-15 10:16:56,580 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:57,650 - win_events - INFO - Login detected at 2025-08-15 10:16:57.650223
+2025-08-15 10:16:57,691 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:58,712 - win_events - INFO - Login detected at 2025-08-15 10:16:58.712443
+2025-08-15 10:16:58,747 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:16:59,761 - win_events - INFO - Login detected at 2025-08-15 10:16:59.761211
+2025-08-15 10:16:59,781 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:00,784 - win_events - INFO - Login detected at 2025-08-15 10:17:00.784554
+2025-08-15 10:17:00,806 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:01,825 - win_events - INFO - Login detected at 2025-08-15 10:17:01.825821
+2025-08-15 10:17:01,837 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:02,850 - win_events - INFO - Login detected at 2025-08-15 10:17:02.850108
+2025-08-15 10:17:02,874 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:03,885 - win_events - INFO - Login detected at 2025-08-15 10:17:03.885574
+2025-08-15 10:17:03,906 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:04,910 - win_events - INFO - Login detected at 2025-08-15 10:17:04.910461
+2025-08-15 10:17:04,927 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:05,949 - win_events - INFO - Login detected at 2025-08-15 10:17:05.949240
+2025-08-15 10:17:05,980 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:07,025 - win_events - INFO - Login detected at 2025-08-15 10:17:07.025037
+2025-08-15 10:17:07,058 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:08,071 - win_events - INFO - Login detected at 2025-08-15 10:17:08.071149
+2025-08-15 10:17:08,130 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:09,141 - win_events - INFO - Login detected at 2025-08-15 10:17:09.140764
+2025-08-15 10:17:09,179 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:10,190 - win_events - INFO - Login detected at 2025-08-15 10:17:10.190245
+2025-08-15 10:17:10,210 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:11,226 - win_events - INFO - Login detected at 2025-08-15 10:17:11.225720
+2025-08-15 10:17:11,281 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:12,290 - win_events - INFO - Login detected at 2025-08-15 10:17:12.287819
+2025-08-15 10:17:12,308 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:13,310 - win_events - INFO - Login detected at 2025-08-15 10:17:13.310594
+2025-08-15 10:17:13,323 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:14,336 - win_events - INFO - Login detected at 2025-08-15 10:17:14.333633
+2025-08-15 10:17:14,363 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:15,381 - win_events - INFO - Login detected at 2025-08-15 10:17:15.380699
+2025-08-15 10:17:15,404 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:16,417 - win_events - INFO - Login detected at 2025-08-15 10:17:16.417385
+2025-08-15 10:17:16,429 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:17,443 - win_events - INFO - Login detected at 2025-08-15 10:17:17.443177
+2025-08-15 10:17:17,465 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:18,483 - win_events - INFO - Login detected at 2025-08-15 10:17:18.483000
+2025-08-15 10:17:18,495 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:19,508 - win_events - INFO - Login detected at 2025-08-15 10:17:19.508153
+2025-08-15 10:17:19,531 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:20,597 - win_events - INFO - Login detected at 2025-08-15 10:17:20.597130
+2025-08-15 10:17:20,787 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:21,798 - win_events - INFO - Login detected at 2025-08-15 10:17:21.798384
+2025-08-15 10:17:21,838 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:22,847 - win_events - INFO - Login detected at 2025-08-15 10:17:22.846669
+2025-08-15 10:17:22,876 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:23,881 - win_events - INFO - Login detected at 2025-08-15 10:17:23.881607
+2025-08-15 10:17:23,901 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:17:24,949 - win_events - INFO - Login detected at 2025-08-15 10:17:24.949652
+2025-08-15 10:17:25,170 - win_events - ERROR - Error in login callback: 'datetime.datetime' object has no attribute 'get'
+2025-08-15 10:20:54,255 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:20:55,631 - win_events - INFO - Registered callback for login
+2025-08-15 10:20:55,631 - win_events - INFO - Registered callback for logout
+2025-08-15 10:25:01,925 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:25:02,819 - win_events - INFO - Registered callback for login
+2025-08-15 10:25:02,819 - win_events - INFO - Registered callback for logout
+2025-08-15 10:29:17,257 - __main__ - INFO - Attendance Tracker starting...
+2025-08-15 10:29:18,995 - win_events - INFO - Registered callback for login
+2025-08-15 10:29:18,995 - win_events - INFO - Registered callback for logout

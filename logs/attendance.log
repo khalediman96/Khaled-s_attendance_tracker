@@ -1,0 +1,1117 @@
+2025-08-15 10:42:34,434 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition
+2025-08-15 10:42:36,533 - win_events - INFO - Registered callback for login
+2025-08-15 10:42:36,535 - win_events - INFO - Registered callback for logout
+2025-08-15 10:42:37,226 - __main__ - INFO - Using PyQt5 interface
+2025-08-15 10:42:52,925 - win_events - INFO - Started Windows event monitoring
+2025-08-15 10:42:53,067 - win_events - INFO - Login detected at 2025-08-15 10:42:53.067682
+2025-08-15 10:42:53,079 - win_events - ERROR - Error in login callback: AttendancePyQtGUI.on_login() takes 1 positional argument but 2 were given
+2025-08-15 10:42:54,090 - win_events - INFO - Login detected at 2025-08-15 10:42:54.090298
+2025-08-15 10:42:54,103 - win_events - ERROR - Error in login callback: AttendancePyQtGUI.on_login() takes 1 positional argument but 2 were given
+2025-08-15 10:42:55,107 - win_events - INFO - Login detected at 2025-08-15 10:42:55.107560
+2025-08-15 10:42:55,135 - win_events - ERROR - Error in login callback: AttendancePyQtGUI.on_login() takes 1 positional argument but 2 were given
+2025-08-15 10:42:56,150 - win_events - INFO - Stopped Windows event monitoring
+2025-08-15 10:47:37,469 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition
+2025-08-15 10:48:07,946 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition
+2025-08-15 10:49:02,064 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition
+2025-08-15 10:49:02,325 - root - ERROR - Application error: 'AttendancePyQtGUI' object has no attribute 'path_input'
+2025-08-15 10:49:35,505 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition
+2025-08-15 10:49:36,483 - win_events - INFO - Registered callback for login
+2025-08-15 10:49:36,483 - win_events - INFO - Registered callback for logout
+2025-08-15 10:49:36,799 - __main__ - INFO - Using PyQt5 interface
+2025-08-15 10:51:43,976 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition
+2025-08-15 10:51:45,030 - win_events - INFO - Registered callback for login
+2025-08-15 10:51:45,030 - win_events - INFO - Registered callback for logout
+2025-08-15 10:51:45,262 - __main__ - INFO - Using PyQt5 interface
+2025-08-15 10:51:49,759 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 10:51:49,761 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:51:49,762 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:51:49,763 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:51:49,763 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:51:49,765 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:51:49,766 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:51:49,766 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:51:49,772 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:51:49,789 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:51:49,798 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 10:51:49,805 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 10:51:49,811 - word_handler - INFO - Filled day: Friday
+2025-08-15 10:51:49,820 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 10:51:49,821 - word_handler - INFO - Filled time in: 10:51:49
+2025-08-15 10:51:49,827 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:51:49,828 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 10:51:49,828 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 10:51:49,829 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:51:49,831 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:51:49,833 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:51:49,835 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:51:49,836 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:51:49,836 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:51:49,837 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:51:49,838 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:51:49,838 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:51:49,840 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 10:51:49,845 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:51:49,846 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 10:51:49,849 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 10:51:49,855 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:51:49,855 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 10:51:49,856 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_105149.docx
+2025-08-15 10:51:49,876 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_105149.docx
+2025-08-15 10:51:54,101 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_105149.docx
+2025-08-15 10:51:54,194 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 10:51:54,224 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:51:54,270 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:51:54,270 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:51:54,280 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:51:54,293 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:51:54,295 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:51:54,296 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:51:54,297 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:51:54,298 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:51:54,335 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 10:51:54,353 - word_handler - INFO - Time In cell current content: '10:51:49'
+2025-08-15 10:51:54,354 - word_handler - INFO - No time_in provided - keeping existing value: '10:51:49'
+2025-08-15 10:51:54,355 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:51:54,357 - word_handler - INFO - Filled time out: 10:51:54
+2025-08-15 10:51:54,358 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_105149.docx
+2025-08-15 10:51:54,370 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_105149.docx
+2025-08-15 10:52:39,576 - win_events - INFO - Started Windows event monitoring
+2025-08-15 10:52:39,630 - win_events - INFO - Login detected at 2025-08-15 10:52:39.630369
+2025-08-15 10:52:40,702 - win_events - INFO - Login detected at 2025-08-15 10:52:40.702255
+2025-08-15 10:52:41,750 - win_events - INFO - Login detected at 2025-08-15 10:52:41.750437
+2025-08-15 10:52:42,801 - win_events - INFO - Login detected at 2025-08-15 10:52:42.800718
+2025-08-15 10:52:43,849 - win_events - INFO - Login detected at 2025-08-15 10:52:43.849413
+2025-08-15 10:52:44,913 - win_events - INFO - Login detected at 2025-08-15 10:52:44.913763
+2025-08-15 10:52:45,948 - win_events - INFO - Login detected at 2025-08-15 10:52:45.948399
+2025-08-15 10:52:46,998 - win_events - INFO - Login detected at 2025-08-15 10:52:46.997872
+2025-08-15 10:52:48,065 - win_events - INFO - Login detected at 2025-08-15 10:52:48.065017
+2025-08-15 10:52:49,116 - win_events - INFO - Stopped Windows event monitoring
+2025-08-15 10:55:01,070 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition
+2025-08-15 10:55:03,119 - win_events - INFO - Registered callback for login
+2025-08-15 10:55:03,119 - win_events - INFO - Registered callback for logout
+2025-08-15 10:55:03,893 - __main__ - INFO - Using PyQt5 interface
+2025-08-15 10:55:08,111 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 10:55:08,118 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:55:08,130 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:55:08,131 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:55:08,135 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:55:08,136 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:55:08,141 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:55:08,148 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:55:08,149 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:55:08,187 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:55:08,205 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 10:55:08,220 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 10:55:08,227 - word_handler - INFO - Filled day: Friday
+2025-08-15 10:55:08,251 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 10:55:08,252 - word_handler - INFO - Filled time in: 10:55:08
+2025-08-15 10:55:08,253 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:55:08,271 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 10:55:08,282 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 10:55:08,283 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:55:08,293 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:55:08,298 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:55:08,308 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:55:08,310 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:55:08,310 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:55:08,322 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:55:08,322 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:55:08,324 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:55:08,326 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 10:55:08,339 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:55:08,350 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 10:55:08,353 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 10:55:08,356 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 10:55:08,358 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 10:55:08,372 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_105508.docx
+2025-08-15 10:55:08,397 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_105508.docx
+2025-08-15 10:55:13,587 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_105508.docx
+2025-08-15 10:55:13,616 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 10:55:13,622 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 10:55:13,628 - word_handler - INFO - Found day column at index 0
+2025-08-15 10:55:13,629 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 10:55:13,630 - word_handler - INFO - Found date column at index 1
+2025-08-15 10:55:13,631 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 10:55:13,631 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 10:55:13,632 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 10:55:13,634 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 10:55:13,635 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 10:55:13,650 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 10:55:13,654 - word_handler - INFO - Time In cell current content: '10:55:08'
+2025-08-15 10:55:13,655 - word_handler - INFO - No time_in provided - keeping existing value: '10:55:08'
+2025-08-15 10:55:13,656 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 10:55:13,659 - word_handler - INFO - Filled time out: 10:55:13
+2025-08-15 10:55:13,659 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_105508.docx
+2025-08-15 10:55:13,672 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_105508.docx
+2025-08-15 11:07:13,793 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 11:07:13,871 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 11:07:14,839 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 11:07:14,842 - web_server - INFO - Web server started!
+2025-08-15 11:07:14,842 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 11:07:14,842 - web_server - INFO - Mobile access: http://10.101.21.99:5000
+2025-08-15 11:07:14,846 - win_events - INFO - Registered callback for login
+2025-08-15 11:07:14,846 - win_events - INFO - Registered callback for logout
+2025-08-15 11:07:15,149 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 11:07:15,226 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.101.21.99:5000
+2025-08-15 11:07:15,230 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 11:07:38,382 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:38] "GET /?id=2325c672-a0a2-4929-a03e-239848c37ae6&vscodeBrowserReqId=1755241657922 HTTP/1.1" 200 -
+2025-08-15 11:07:39,031 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:39] "GET /socket.io/?EIO=4&transport=polling&t=PYiZZgF HTTP/1.1" 200 -
+2025-08-15 11:07:39,388 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:39] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:07:39,393 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:39] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:07:39,533 - web_server - INFO - Mobile client connected
+2025-08-15 11:07:39,536 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:39] "POST /socket.io/?EIO=4&transport=polling&t=PYiZZiG&sid=nVrYu4Y0xwcYXxPqAAAA HTTP/1.1" 200 -
+2025-08-15 11:07:39,683 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:39] "GET /socket.io/?EIO=4&transport=polling&t=PYiZZjk&sid=nVrYu4Y0xwcYXxPqAAAA HTTP/1.1" 200 -
+2025-08-15 11:07:39,822 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:39] "GET /socket.io/?EIO=4&transport=polling&t=PYiZZrP&sid=nVrYu4Y0xwcYXxPqAAAA HTTP/1.1" 200 -
+2025-08-15 11:07:45,395 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:45] "GET / HTTP/1.1" 200 -
+2025-08-15 11:07:45,509 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:45] "GET /socket.io/?EIO=4&transport=polling&t=PYiZbFX HTTP/1.1" 200 -
+2025-08-15 11:07:45,856 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:45] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:07:45,923 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:45] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:07:45,951 - web_server - INFO - Mobile client connected
+2025-08-15 11:07:45,955 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:45] "POST /socket.io/?EIO=4&transport=polling&t=PYiZbHU&sid=UF8nHOmqjwVzFAWnAAAC HTTP/1.1" 200 -
+2025-08-15 11:07:45,975 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:45] "GET /socket.io/?EIO=4&transport=polling&t=PYiZbHW&sid=UF8nHOmqjwVzFAWnAAAC HTTP/1.1" 200 -
+2025-08-15 11:07:46,006 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:46] "GET /manifest.json HTTP/1.1" 200 -
+2025-08-15 11:07:46,072 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:46] "[33mGET /static/icon-192.png HTTP/1.1[0m" 404 -
+2025-08-15 11:07:46,415 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:07:46] "[33mGET /static/icon-192.png HTTP/1.1[0m" 404 -
+2025-08-15 11:08:00,025 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 11:08:00,027 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 11:08:00,027 - word_handler - INFO - Found day column at index 0
+2025-08-15 11:08:00,029 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 11:08:00,030 - word_handler - INFO - Found date column at index 1
+2025-08-15 11:08:00,032 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 11:08:00,033 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 11:08:00,034 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 11:08:00,035 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 11:08:00,035 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 11:08:00,047 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 11:08:00,057 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 11:08:00,058 - word_handler - INFO - Filled day: Friday
+2025-08-15 11:08:00,059 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 11:08:00,061 - word_handler - INFO - Filled time in: 11:08:00
+2025-08-15 11:08:00,066 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 11:08:00,068 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 11:08:00,068 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 11:08:00,070 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 11:08:00,072 - word_handler - INFO - Found day column at index 0
+2025-08-15 11:08:00,073 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 11:08:00,074 - word_handler - INFO - Found date column at index 1
+2025-08-15 11:08:00,074 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 11:08:00,075 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 11:08:00,076 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 11:08:00,076 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 11:08:00,076 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 11:08:00,078 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 11:08:00,086 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 11:08:00,087 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 11:08:00,089 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 11:08:00,093 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 11:08:00,094 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 11:08:00,100 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_110800.docx
+2025-08-15 11:08:00,110 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_110800.docx
+2025-08-15 11:08:00,110 - web_server - INFO - Mobile check-in: Check-in recorded at 11:08:00
+2025-08-15 11:08:00,111 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:00] "POST /api/checkin HTTP/1.1" 200 -
+2025-08-15 11:08:00,435 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:00] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:00,437 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:00] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:00,752 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:00] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:06,916 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_110800.docx
+2025-08-15 11:08:06,952 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 11:08:06,953 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 11:08:06,954 - word_handler - INFO - Found day column at index 0
+2025-08-15 11:08:06,954 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 11:08:06,954 - word_handler - INFO - Found date column at index 1
+2025-08-15 11:08:06,955 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 11:08:06,955 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 11:08:06,956 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 11:08:06,956 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 11:08:06,957 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 11:08:06,968 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 11:08:06,970 - word_handler - INFO - Time In cell current content: '11:08:00'
+2025-08-15 11:08:06,970 - word_handler - INFO - No time_in provided - keeping existing value: '11:08:00'
+2025-08-15 11:08:06,970 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 11:08:06,971 - word_handler - INFO - Filled time out: 11:08:06
+2025-08-15 11:08:06,971 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_110800.docx
+2025-08-15 11:08:06,981 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_110800.docx
+2025-08-15 11:08:06,982 - web_server - INFO - Mobile check-out: Check-out recorded at 11:08:06
+2025-08-15 11:08:06,983 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:06] "POST /api/checkout HTTP/1.1" 200 -
+2025-08-15 11:08:07,221 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:07] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:07,300 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:07] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:07,546 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:07] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:09,388 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:09] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:08:09,411 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:09] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:15,548 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:15] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:08:16,023 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:16] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:39,123 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:39] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:08:39,433 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:39] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:08:45,854 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:45] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:08:45,871 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:08:45] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:09:09,391 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:09] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:09:09,407 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:09] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:09:16,152 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:16] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:09:16,470 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:16] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:09:39,073 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:39] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:09:39,392 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:39] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:09:46,456 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:46] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:09:46,465 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:09:46] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:10:09,385 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:09] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:10:09,403 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:09] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:10:16,146 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:16] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:10:16,487 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:16] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:10:39,081 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:39] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:10:39,395 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:39] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:10:46,135 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:46] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:10:46,459 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:10:46] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:11:09,378 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:11:09] "GET /api/status HTTP/1.1" 200 -
+2025-08-15 11:11:09,396 - werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 11:11:09] "GET /api/recent-documents HTTP/1.1" 200 -
+2025-08-15 11:59:28,531 - splash_screen - INFO - Splash screen initialized
+2025-08-15 11:59:28,577 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 11:59:28,635 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 11:59:28,647 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 11:59:28,654 - splash_screen - INFO - Splash progress: 40% - Setting up event monitoring...
+2025-08-15 11:59:28,657 - splash_screen - INFO - Splash progress: 60% - Loading document handlers...
+2025-08-15 11:59:28,664 - splash_screen - INFO - Splash progress: 80% - Initializing web server for mobile access...
+2025-08-15 11:59:28,667 - __main__ - WARNING - Web server initialization failed: Invalid async_mode specified. Running in desktop-only mode.
+2025-08-15 11:59:28,674 - splash_screen - INFO - Splash progress: 95% - Creating modern user interface...
+2025-08-15 11:59:28,694 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 11:59:29,377 - win_events - INFO - Registered callback for login
+2025-08-15 11:59:29,377 - win_events - INFO - Registered callback for logout
+2025-08-15 11:59:29,442 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 11:59:29,442 - root - ERROR - Application error: wrapped C/C++ object of type ModernSplashScreen has been deleted
+2025-08-15 14:59:33,214 - splash_screen - INFO - Splash screen initialized
+2025-08-15 14:59:33,278 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 14:59:33,369 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 14:59:33,390 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 14:59:33,397 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 14:59:33,403 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 14:59:33,497 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 14:59:33,499 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 14:59:33,519 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 14:59:34,264 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 14:59:34,325 - web_server - INFO - Web server started!
+2025-08-15 14:59:34,483 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 14:59:34,493 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 14:59:34,506 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 14:59:34,523 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 14:59:34,531 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 14:59:34,692 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 14:59:34,695 - root - ERROR - Application error: wrapped C/C++ object of type ModernSplashScreen has been deleted
+2025-08-15 15:08:04,786 - splash_screen - INFO - Splash screen initialized
+2025-08-15 15:08:04,828 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 15:08:05,040 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 15:08:05,053 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 15:08:05,087 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 15:08:05,096 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 15:08:05,149 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 15:08:05,152 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 15:08:05,160 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 15:08:05,546 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 15:08:05,549 - web_server - INFO - Web server started!
+2025-08-15 15:08:05,549 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 15:08:05,549 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 15:08:05,550 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 15:08:05,620 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 15:08:05,684 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 15:08:05,701 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 15:08:29,781 - splash_screen - INFO - Splash screen initialized
+2025-08-15 15:08:29,819 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 15:08:29,871 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 15:08:29,877 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 15:08:29,891 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 15:08:29,939 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 15:08:30,032 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 15:08:30,041 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 15:08:30,106 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 15:08:30,660 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 15:08:30,667 - web_server - INFO - Web server started!
+2025-08-15 15:08:30,668 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 15:08:30,670 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 15:08:30,671 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 15:08:30,777 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 15:08:30,787 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 15:08:30,799 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 15:09:15,944 - splash_screen - INFO - Splash screen initialized
+2025-08-15 15:09:15,980 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 15:09:16,110 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 15:09:16,163 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 15:09:16,214 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 15:09:16,238 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 15:09:16,329 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 15:09:16,332 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 15:09:16,381 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 15:09:16,894 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 15:09:16,898 - web_server - INFO - Web server started!
+2025-08-15 15:09:16,908 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 15:09:16,909 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 15:09:16,910 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 15:09:16,920 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 15:09:16,928 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 15:09:17,066 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 15:09:17,066 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 15:09:17,066 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 15:09:27,363 - pyqt_ui - INFO - Opened document: Attendance_filled_20250815_110800.docx
+2025-08-15 15:09:40,109 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 15:09:40,111 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 15:09:40,111 - word_handler - INFO - Found day column at index 0
+2025-08-15 15:09:40,112 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 15:09:40,112 - word_handler - INFO - Found date column at index 1
+2025-08-15 15:09:40,113 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 15:09:40,113 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 15:09:40,114 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 15:09:40,114 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 15:09:40,115 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 15:09:40,122 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 15:09:40,123 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 15:09:40,123 - word_handler - INFO - Filled day: Friday
+2025-08-15 15:09:40,124 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 15:09:40,125 - word_handler - INFO - Filled time in: 15:09:40
+2025-08-15 15:09:40,125 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 15:09:40,126 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 15:09:40,128 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 15:09:40,129 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 15:09:40,129 - word_handler - INFO - Found day column at index 0
+2025-08-15 15:09:40,130 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 15:09:40,130 - word_handler - INFO - Found date column at index 1
+2025-08-15 15:09:40,131 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 15:09:40,131 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 15:09:40,132 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 15:09:40,132 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 15:09:40,133 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 15:09:40,134 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 15:09:40,137 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 15:09:40,138 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 15:09:40,140 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 15:09:40,141 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 15:09:40,142 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 15:09:40,143 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_150940.docx
+2025-08-15 15:09:40,156 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_150940.docx
+2025-08-15 15:09:40,158 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 15:09:43,237 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_150940.docx
+2025-08-15 15:09:43,265 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 15:09:43,269 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 15:09:43,270 - word_handler - INFO - Found day column at index 0
+2025-08-15 15:09:43,271 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 15:09:43,272 - word_handler - INFO - Found date column at index 1
+2025-08-15 15:09:43,273 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 15:09:43,274 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 15:09:43,277 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 15:09:43,278 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 15:09:43,279 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 15:09:43,293 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 15:09:43,296 - word_handler - INFO - Time In cell current content: '15:09:40'
+2025-08-15 15:09:43,297 - word_handler - INFO - No time_in provided - keeping existing value: '15:09:40'
+2025-08-15 15:09:43,298 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 15:09:43,299 - word_handler - INFO - Filled time out: 15:09:43
+2025-08-15 15:09:43,299 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_150940.docx
+2025-08-15 15:09:43,313 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_150940.docx
+2025-08-15 15:09:43,315 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-15 15:09:48,198 - pyqt_ui - INFO - Opened document: Attendance_filled_20250815_150940.docx
+2025-08-15 15:12:23,292 - splash_screen - INFO - Splash screen initialized
+2025-08-15 15:12:23,335 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 15:12:23,430 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 15:12:23,441 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 15:12:23,460 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 15:12:23,473 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 15:12:23,559 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 15:12:23,561 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 15:12:23,573 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 15:12:24,087 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 15:12:24,091 - web_server - INFO - Web server started!
+2025-08-15 15:12:24,091 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 15:12:24,092 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 15:12:24,092 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 15:12:24,105 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 15:12:24,115 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 15:12:24,252 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 15:12:24,269 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 15:12:24,270 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 16:28:00,802 - pyqt_ui - INFO - Error: Failed to start monitoring: 'NoneType' object has no attribute 'start_monitoring'
+2025-08-15 16:32:03,917 - splash_screen - INFO - Splash screen initialized
+2025-08-15 16:32:03,976 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 16:32:04,049 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 16:32:04,129 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 16:32:04,175 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 16:32:04,195 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 16:32:04,266 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 16:32:04,268 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 16:32:04,285 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 16:32:04,681 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 16:32:04,683 - web_server - INFO - Web server started!
+2025-08-15 16:32:04,683 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 16:32:04,683 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 16:32:04,684 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 16:32:04,693 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 16:32:04,699 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 16:32:04,841 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 16:32:04,903 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 16:32:04,908 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 16:32:11,578 - pyqt_ui - INFO - Error: Failed to start monitoring: 'AttendancePyQtGUI' object has no attribute 'event_monitor'
+2025-08-15 16:33:34,927 - web_server - INFO - Web server stopped
+2025-08-15 16:33:34,929 - pyqt_ui - INFO - Web server stopped
+2025-08-15 16:34:13,363 - splash_screen - INFO - Splash screen initialized
+2025-08-15 16:34:13,399 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 16:34:13,585 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 16:34:13,595 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 16:34:13,600 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 16:34:13,604 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 16:34:13,646 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 16:34:13,648 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 16:34:13,676 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 16:34:14,115 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 16:34:14,125 - web_server - INFO - Web server started!
+2025-08-15 16:34:14,127 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 16:34:14,128 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 16:34:14,132 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 16:34:14,151 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 16:34:14,166 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 16:34:14,375 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 16:34:14,385 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 16:34:14,388 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 16:34:17,413 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 16:34:17,414 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 16:34:17,415 - word_handler - INFO - Found day column at index 0
+2025-08-15 16:34:17,415 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 16:34:17,416 - word_handler - INFO - Found date column at index 1
+2025-08-15 16:34:17,416 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 16:34:17,416 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 16:34:17,417 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 16:34:17,417 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 16:34:17,418 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 16:34:17,425 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 16:34:17,427 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 16:34:17,429 - word_handler - INFO - Filled day: Friday
+2025-08-15 16:34:17,430 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 16:34:17,431 - word_handler - INFO - Filled time in: 16:34:17
+2025-08-15 16:34:17,431 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 16:34:17,432 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 16:34:17,432 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 16:34:17,433 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 16:34:17,434 - word_handler - INFO - Found day column at index 0
+2025-08-15 16:34:17,435 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 16:34:17,435 - word_handler - INFO - Found date column at index 1
+2025-08-15 16:34:17,436 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 16:34:17,436 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 16:34:17,437 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 16:34:17,439 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 16:34:17,440 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 16:34:17,443 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 16:34:17,446 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 16:34:17,446 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 16:34:17,448 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 16:34:17,450 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 16:34:17,450 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 16:34:17,451 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_163417.docx
+2025-08-15 16:34:17,462 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_163417.docx
+2025-08-15 16:34:17,464 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 16:35:48,881 - web_server - INFO - Web server stopped
+2025-08-15 16:35:48,883 - pyqt_ui - INFO - Web server stopped
+2025-08-15 16:36:32,363 - splash_screen - INFO - Splash screen initialized
+2025-08-15 16:36:32,401 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 16:36:32,562 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 16:36:32,585 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 16:36:32,610 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 16:36:32,617 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 16:36:32,698 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 16:36:32,705 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 16:36:32,750 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 16:36:33,238 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 16:36:33,241 - web_server - INFO - Web server started!
+2025-08-15 16:36:33,241 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 16:36:33,242 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 16:36:33,242 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 16:36:33,252 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 16:36:33,263 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 16:36:33,407 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 16:36:33,423 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 16:36:33,428 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 16:36:39,731 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 16:36:39,733 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 16:36:39,734 - word_handler - INFO - Found day column at index 0
+2025-08-15 16:36:39,734 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 16:36:39,735 - word_handler - INFO - Found date column at index 1
+2025-08-15 16:36:39,735 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 16:36:39,736 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 16:36:39,736 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 16:36:39,736 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 16:36:39,737 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 16:36:39,744 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 16:36:39,745 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 16:36:39,746 - word_handler - INFO - Filled day: Friday
+2025-08-15 16:36:39,747 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 16:36:39,749 - word_handler - INFO - Filled time in: 16:36:39
+2025-08-15 16:36:39,751 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 16:36:39,751 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 16:36:39,752 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 16:36:39,753 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 16:36:39,754 - word_handler - INFO - Found day column at index 0
+2025-08-15 16:36:39,754 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 16:36:39,755 - word_handler - INFO - Found date column at index 1
+2025-08-15 16:36:39,756 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 16:36:39,756 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 16:36:39,757 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 16:36:39,757 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 16:36:39,757 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 16:36:39,759 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 16:36:39,764 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 16:36:39,765 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 16:36:39,766 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 16:36:39,770 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 16:36:39,770 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 16:36:39,771 - word_handler - INFO - Creating new document: filled_docs\Attendance_filled_20250815_163639.docx
+2025-08-15 16:36:39,789 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_163639.docx
+2025-08-15 16:36:39,793 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 16:36:43,254 - word_handler - INFO - Using existing document for check-out: filled_docs\Attendance_filled_20250815_163639.docx
+2025-08-15 16:36:43,291 - word_handler - WARNING - No 'Month:' field found in document
+2025-08-15 16:36:43,294 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 16:36:43,295 - word_handler - INFO - Found day column at index 0
+2025-08-15 16:36:43,295 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 16:36:43,296 - word_handler - INFO - Found date column at index 1
+2025-08-15 16:36:43,301 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 16:36:43,303 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 16:36:43,306 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 16:36:43,308 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 16:36:43,308 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 16:36:43,343 - word_handler - INFO - Found existing row for date: 2025-08-15
+2025-08-15 16:36:43,345 - word_handler - INFO - Time In cell current content: '16:36:39'
+2025-08-15 16:36:43,345 - word_handler - INFO - No time_in provided - keeping existing value: '16:36:39'
+2025-08-15 16:36:43,346 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 16:36:43,348 - word_handler - INFO - Filled time out: 16:36:43
+2025-08-15 16:36:43,350 - word_handler - INFO - Updating existing document: filled_docs\Attendance_filled_20250815_163639.docx
+2025-08-15 16:36:43,363 - word_handler - INFO - Word document filled successfully: filled_docs\Attendance_filled_20250815_163639.docx
+2025-08-15 16:36:43,368 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-15 16:36:48,021 - pyqt_ui - INFO - Opened document: Attendance_filled_20250815_163639.docx
+2025-08-15 18:57:23,027 - splash_screen - INFO - Splash screen initialized
+2025-08-15 18:57:23,064 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 18:57:23,108 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 18:57:23,113 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 18:57:23,117 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 18:57:23,124 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 18:57:23,202 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 18:57:23,231 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 18:57:23,313 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 18:57:23,353 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 18:59:00,979 - splash_screen - INFO - Splash screen initialized
+2025-08-15 18:59:01,009 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 18:59:01,037 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 18:59:01,043 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 18:59:01,047 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 18:59:01,050 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 18:59:01,102 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 18:59:01,105 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 18:59:01,109 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 18:59:01,110 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:01:51,068 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 19:01:51,072 - web_server - INFO - Web server started!
+2025-08-15 19:01:51,073 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 19:01:51,073 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 19:01:51,074 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 19:01:51,087 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 19:01:51,093 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 19:01:51,239 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 19:01:51,255 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 19:01:51,256 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 19:02:04,614 - web_server - INFO - Web server stopped
+2025-08-15 19:02:04,615 - pyqt_ui - INFO - Web server stopped
+2025-08-15 19:02:48,837 - splash_screen - INFO - Splash screen initialized
+2025-08-15 19:02:48,874 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 19:02:48,921 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 19:02:48,927 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 19:02:48,932 - splash_screen - INFO - Splash progress: 40% - Loading document handlers...
+2025-08-15 19:02:48,936 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 19:02:49,000 - __main__ - INFO - Web server initialized for mobile access
+2025-08-15 19:02:49,072 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 19:02:49,122 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 19:02:49,136 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:02:54,203 - web_server - INFO - Starting web server on 0.0.0.0:5000
+2025-08-15 19:02:54,205 - web_server - INFO - Web server started!
+2025-08-15 19:02:54,205 - web_server - INFO - Local access: http://localhost:5000
+2025-08-15 19:02:54,205 - web_server - INFO - Mobile access: http://192.168.1.108:5000
+2025-08-15 19:02:54,206 - pyqt_ui - INFO - Web server started for mobile access
+2025-08-15 19:02:54,215 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 19:02:54,221 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 19:02:54,401 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 19:02:54,422 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-08-15 19:02:54,424 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-15 19:02:56,895 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 19:02:56,897 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 19:02:56,897 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 19:02:56,898 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 19:02:58,592 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 19:02:58,595 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:02:58,597 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 19:02:58,599 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:03:04,112 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 19:03:04,117 - config_manager - ERROR - Error saving config: [Errno 2] No such file or directory: 'C:\\Users\\khale\\AppData\\Roaming\\AttendanceTracker\\settings.json'
+2025-08-15 19:03:04,121 - pyqt_ui - INFO - Document selected: Attendance.pdf
+2025-08-15 19:03:05,349 - pdf_handler - WARNING - PDF has no form fields
+2025-08-15 19:03:05,349 - pdf_handler - INFO - Using fallback PDF overlay method
+2025-08-15 19:03:05,457 - pdf_handler - INFO - PDF filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190305.pdf
+2025-08-15 19:03:05,459 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 19:03:07,415 - pyqt_ui - INFO - [DEBUG] last_checkin_time: datetime.datetime(2025, 8, 15, 19, 3, 5, 345267) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:07,415 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 15, 19, 3, 7, 413165) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:07,416 - pyqt_ui - INFO - [DEBUG] Using time_in for pdf: datetime.datetime(2025, 8, 15, 19, 3, 5, 345267) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:07,420 - pdf_handler - WARNING - PDF has no form fields
+2025-08-15 19:03:07,420 - pdf_handler - INFO - Using fallback PDF overlay method
+2025-08-15 19:03:07,537 - pdf_handler - INFO - PDF filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190307.pdf
+2025-08-15 19:03:07,538 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-15 19:03:22,017 - pyqt_ui - INFO - Month changed to: August 2025
+2025-08-15 19:03:23,733 - pdf_handler - WARNING - PDF has no form fields
+2025-08-15 19:03:23,734 - pdf_handler - INFO - Using fallback PDF overlay method
+2025-08-15 19:03:23,841 - pdf_handler - INFO - PDF filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190323.pdf
+2025-08-15 19:03:23,842 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 19:03:30,655 - pyqt_ui - INFO - [DEBUG] last_checkin_time: datetime.datetime(2025, 8, 15, 19, 3, 23, 731428) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:30,656 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 15, 19, 3, 30, 655284) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:30,657 - pyqt_ui - INFO - [DEBUG] Using time_in for pdf: datetime.datetime(2025, 8, 15, 19, 3, 23, 731428) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:30,660 - pdf_handler - WARNING - PDF has no form fields
+2025-08-15 19:03:30,660 - pdf_handler - INFO - Using fallback PDF overlay method
+2025-08-15 19:03:30,832 - pdf_handler - INFO - PDF filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190330.pdf
+2025-08-15 19:03:30,834 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-15 19:03:35,549 - pyqt_ui - INFO - Opened document: Attendance_filled_20250815_190330.pdf
+2025-08-15 19:03:43,870 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 19:03:43,871 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 19:03:46,407 - word_handler - ERROR - Word document not found: 
+2025-08-15 19:03:46,408 - pyqt_ui - INFO - Failed to record check-in
+2025-08-15 19:03:48,471 - pyqt_ui - INFO - Error: Failed to record check-in. Please check document path.
+2025-08-15 19:03:50,338 - pyqt_ui - INFO - Document selected: Attendance.docx
+2025-08-15 19:03:52,044 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:03:52,046 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:03:52,046 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:03:52,047 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:03:52,047 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:03:52,047 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:03:52,048 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:03:52,048 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:03:52,049 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:03:52,049 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:03:52,059 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:03:52,061 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:03:52,064 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:03:52,065 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:03:52,066 - word_handler - INFO - Filled time in: 19:03:52
+2025-08-15 19:03:52,066 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:03:52,067 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 19:03:52,067 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:03:52,068 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:03:52,068 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:03:52,069 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:03:52,070 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:03:52,070 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:03:52,071 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:03:52,072 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:03:52,072 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:03:52,074 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:03:52,076 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:03:52,078 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:03:52,079 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:03:52,083 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:03:52,085 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:03:52,086 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:03:52,086 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190352.docx
+2025-08-15 19:03:52,106 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190352.docx
+2025-08-15 19:03:52,107 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 19:03:55,415 - pyqt_ui - INFO - [DEBUG] last_checkin_time: datetime.datetime(2025, 8, 15, 19, 3, 52, 35317) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:55,416 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 15, 19, 3, 55, 414820) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:55,418 - pyqt_ui - INFO - [DEBUG] Using time_in for word: datetime.datetime(2025, 8, 15, 19, 3, 52, 35317) (type: <class 'datetime.datetime'>)
+2025-08-15 19:03:55,429 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:03:55,433 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:03:55,433 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:03:55,435 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:03:55,436 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:03:55,439 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:03:55,441 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:03:55,445 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:03:55,446 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:03:55,448 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:03:55,465 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:03:55,467 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:03:55,469 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:03:55,473 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:03:55,474 - word_handler - INFO - Filled time in: 19:03:52
+2025-08-15 19:03:55,477 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:03:55,478 - word_handler - INFO - Filled time out: 19:03:55
+2025-08-15 19:03:55,480 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:03:55,482 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:03:55,483 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:03:55,484 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:03:55,484 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:03:55,485 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:03:55,489 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:03:55,491 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:03:55,491 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:03:55,494 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:03:55,497 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:03:55,501 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:03:55,506 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:03:55,508 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:03:55,512 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:03:55,513 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:03:55,514 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190355.docx
+2025-08-15 19:03:55,535 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_190355.docx
+2025-08-15 19:03:55,543 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-15 19:03:58,519 - pyqt_ui - INFO - Opened document: Attendance_filled_20250815_190355.docx
+2025-08-15 19:04:17,782 - web_server - INFO - Web server stopped
+2025-08-15 19:04:17,785 - pyqt_ui - INFO - Web server stopped
+2025-08-15 19:14:38,988 - splash_screen - INFO - Splash screen initialized
+2025-08-15 19:14:39,024 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-15 19:14:39,069 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-15 19:14:39,074 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-15 19:14:39,094 - splash_screen - INFO - Splash progress: 40% - Loading document handler...
+2025-08-15 19:14:39,099 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-15 19:14:39,099 - __main__ - WARNING - Web server initialization failed: AttendanceWebServer.__init__() missing 1 required positional argument: 'pdf_handler'. Running in desktop-only mode.
+2025-08-15 19:14:39,102 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-15 19:14:39,109 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 19:14:39,656 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-15 19:14:39,662 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-15 19:14:39,798 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-15 19:14:46,645 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:14:46,647 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:14:49,155 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:14:49,158 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:14:49,159 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:14:49,160 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:14:49,161 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:14:49,163 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:14:49,164 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:14:49,165 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:14:49,166 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:14:49,166 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:14:49,184 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:14:49,186 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:14:49,192 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:14:49,194 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:14:49,195 - word_handler - INFO - Filled time in: 19:14:49
+2025-08-15 19:14:49,196 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:14:49,197 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 19:14:49,197 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:14:49,199 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:14:49,199 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:14:49,201 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:14:49,202 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:14:49,203 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:14:49,206 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:14:49,208 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:14:49,208 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:14:49,209 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:14:49,211 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:14:49,215 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:14:49,215 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:14:49,217 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:14:49,219 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:14:49,220 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:14:49,221 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191449.docx
+2025-08-15 19:14:49,232 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191449.docx
+2025-08-15 19:14:49,234 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 19:14:52,004 - pyqt_ui - INFO - [DEBUG] last_checkin_time: datetime.datetime(2025, 8, 15, 19, 14, 49, 142381) (type: <class 'datetime.datetime'>)
+2025-08-15 19:14:52,006 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 15, 19, 14, 52, 2554) (type: <class 'datetime.datetime'>)
+2025-08-15 19:14:52,007 - pyqt_ui - INFO - [DEBUG] Using time_in for pdf: datetime.datetime(2025, 8, 15, 19, 14, 49, 142381) (type: <class 'datetime.datetime'>)
+2025-08-15 19:14:52,017 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:14:52,020 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:14:52,021 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:14:52,022 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:14:52,023 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:14:52,026 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:14:52,028 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:14:52,030 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:14:52,037 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:14:52,038 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:14:52,061 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:14:52,065 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:14:52,067 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:14:52,067 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:14:52,068 - word_handler - INFO - Filled time in: 19:14:49
+2025-08-15 19:14:52,072 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:14:52,074 - word_handler - INFO - Filled time out: 19:14:52
+2025-08-15 19:14:52,074 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:14:52,078 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:14:52,079 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:14:52,082 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:14:52,083 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:14:52,084 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:14:52,087 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:14:52,088 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:14:52,090 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:14:52,092 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:14:52,094 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:14:52,097 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:14:52,097 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:14:52,099 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:14:52,102 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:14:52,107 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:14:52,108 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191452.docx
+2025-08-15 19:14:52,131 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191452.docx
+2025-08-15 19:14:52,132 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-15 19:14:55,617 - pyqt_ui - INFO - Opened document: Attendance_filled_20250815_191452.docx
+2025-08-15 19:15:04,971 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 19:15:04,975 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-15 19:15:05,971 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:15:05,973 - pyqt_ui - INFO - Document type changed to: PDF
+2025-08-15 19:15:08,449 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:15:08,451 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:08,451 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:08,452 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:08,452 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:08,453 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:08,453 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:08,454 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:08,454 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:08,455 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:08,465 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:15:08,466 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:15:08,467 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:15:08,469 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:15:08,470 - word_handler - INFO - Filled time in: 19:15:08
+2025-08-15 19:15:08,471 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:15:08,472 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 19:15:08,472 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:15:08,473 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:08,473 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:08,474 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:08,474 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:08,475 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:08,475 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:08,476 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:08,476 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:08,477 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:08,480 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:15:08,483 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:08,483 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:15:08,485 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:15:08,487 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:08,487 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:15:08,488 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191508.docx
+2025-08-15 19:15:08,505 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191508.docx
+2025-08-15 19:15:08,506 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 19:15:11,243 - pyqt_ui - INFO - [DEBUG] last_checkin_time: datetime.datetime(2025, 8, 15, 19, 15, 8, 442578) (type: <class 'datetime.datetime'>)
+2025-08-15 19:15:11,244 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 15, 19, 15, 11, 242636) (type: <class 'datetime.datetime'>)
+2025-08-15 19:15:11,245 - pyqt_ui - INFO - [DEBUG] Using time_in for pdf: datetime.datetime(2025, 8, 15, 19, 15, 8, 442578) (type: <class 'datetime.datetime'>)
+2025-08-15 19:15:11,252 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:15:11,254 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:11,254 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:11,255 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:11,256 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:11,257 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:11,257 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:11,258 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:11,259 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:11,259 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:11,267 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:15:11,269 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:15:11,269 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:15:11,270 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:15:11,271 - word_handler - INFO - Filled time in: 19:15:08
+2025-08-15 19:15:11,271 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:15:11,272 - word_handler - INFO - Filled time out: 19:15:11
+2025-08-15 19:15:11,272 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:15:11,273 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:11,274 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:11,275 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:11,276 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:11,277 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:11,278 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:11,279 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:11,280 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:11,282 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:11,284 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:15:11,287 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:11,287 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:15:11,290 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:15:11,294 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:11,296 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:15:11,297 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191511.docx
+2025-08-15 19:15:11,322 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191511.docx
+2025-08-15 19:15:11,324 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-15 19:15:33,276 - pyqt_ui - INFO - Document selected: Attendance.pdf
+2025-08-15 19:15:36,030 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:15:36,032 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:36,032 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:36,033 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:36,033 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:36,034 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:36,034 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:36,035 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:36,035 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:36,037 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:36,043 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:15:36,045 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:15:36,046 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:15:36,047 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:15:36,048 - word_handler - INFO - Filled time in: 19:15:36
+2025-08-15 19:15:36,049 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:15:36,049 - word_handler - INFO - No time_out provided - keeping existing value: ''
+2025-08-15 19:15:36,049 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:15:36,050 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:36,051 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:36,052 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:36,053 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:36,054 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:36,054 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:36,055 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:36,056 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:36,059 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:36,063 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:15:36,071 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:36,071 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:15:36,074 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:15:36,077 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:36,078 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:15:36,081 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191536.docx
+2025-08-15 19:15:36,113 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191536.docx
+2025-08-15 19:15:36,117 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-15 19:15:40,479 - pyqt_ui - INFO - [DEBUG] last_checkin_time: datetime.datetime(2025, 8, 15, 19, 15, 36, 22404) (type: <class 'datetime.datetime'>)
+2025-08-15 19:15:40,479 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 15, 19, 15, 40, 478600) (type: <class 'datetime.datetime'>)
+2025-08-15 19:15:40,480 - pyqt_ui - INFO - [DEBUG] Using time_in for pdf: datetime.datetime(2025, 8, 15, 19, 15, 36, 22404) (type: <class 'datetime.datetime'>)
+2025-08-15 19:15:40,487 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-15 19:15:40,490 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:40,490 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:40,491 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:40,492 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:40,494 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:40,496 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:40,497 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:40,497 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:40,498 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:40,528 - word_handler - INFO - Using empty row 1 for date: 2025-08-15
+2025-08-15 19:15:40,531 - word_handler - INFO - Filled date: 2025-08-15
+2025-08-15 19:15:40,535 - word_handler - INFO - Filled day: Friday
+2025-08-15 19:15:40,537 - word_handler - INFO - Time In cell current content: ''
+2025-08-15 19:15:40,539 - word_handler - INFO - Filled time in: 19:15:36
+2025-08-15 19:15:40,541 - word_handler - INFO - Time Out cell current content: ''
+2025-08-15 19:15:40,542 - word_handler - INFO - Filled time out: 19:15:40
+2025-08-15 19:15:40,543 - word_handler - INFO - Auto-filling weekend days for Friday check-in
+2025-08-15 19:15:40,549 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-15 19:15:40,551 - word_handler - INFO - Found day column at index 0
+2025-08-15 19:15:40,555 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-15 19:15:40,555 - word_handler - INFO - Found date column at index 1
+2025-08-15 19:15:40,557 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-15 19:15:40,558 - word_handler - INFO - Found time_in column at index 2
+2025-08-15 19:15:40,560 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-15 19:15:40,563 - word_handler - INFO - Found time_out column at index 3
+2025-08-15 19:15:40,565 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-15 19:15:40,572 - word_handler - INFO - Found next empty row at index 2
+2025-08-15 19:15:40,579 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:40,580 - word_handler - INFO - Filled Saturday row: 2025-08-16
+2025-08-15 19:15:40,588 - word_handler - INFO - Found next empty row at index 3
+2025-08-15 19:15:40,594 - word_handler - INFO - Applied gray highlighting to weekend row
+2025-08-15 19:15:40,595 - word_handler - INFO - Filled Sunday row: 2025-08-17
+2025-08-15 19:15:40,597 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191540.docx
+2025-08-15 19:15:40,635 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250815_191540.docx
+2025-08-15 19:15:40,637 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-16 07:29:57,344 - splash_screen - INFO - Splash screen initialized
+2025-08-16 07:29:57,517 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-16 07:29:57,857 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-16 07:29:57,892 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-16 07:29:57,937 - splash_screen - INFO - Splash progress: 40% - Loading document handler...
+2025-08-16 07:29:57,964 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-16 07:29:57,983 - __main__ - WARNING - Web server initialization failed: AttendanceWebServer.__init__() missing 1 required positional argument: 'pdf_handler'. Running in desktop-only mode.
+2025-08-16 07:29:57,993 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-16 07:29:58,083 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-16 07:30:00,806 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-16 07:30:00,888 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-16 07:30:01,604 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-16 07:30:26,603 - pyqt_ui - INFO - Error: No document handler available. Please select a document type and file path.
+2025-08-16 07:30:32,139 - pyqt_ui - INFO - Document selected: Attendance.docx
+2025-08-16 07:34:07,707 - pyqt_ui - INFO - Error: No document handler available. Please select a document type and file path.
+2025-08-16 07:34:56,786 - splash_screen - INFO - Splash screen initialized
+2025-08-16 07:34:56,839 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-16 07:34:57,123 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-16 07:34:57,138 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-16 07:34:57,159 - splash_screen - INFO - Splash progress: 40% - Loading document handler...
+2025-08-16 07:34:57,184 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-16 07:34:57,190 - __main__ - WARNING - Web server initialization failed: AttendanceWebServer.__init__() missing 1 required positional argument: 'pdf_handler'. Running in desktop-only mode.
+2025-08-16 07:34:57,221 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-16 07:34:57,267 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-16 07:34:58,437 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-16 07:34:58,468 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-16 07:34:58,684 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-16 07:35:07,485 - pyqt_ui - INFO - Error: No document handler available. Please select a document type and file path.
+2025-08-16 07:35:13,534 - pyqt_ui - INFO - Document selected: Attendance.docx
+2025-08-16 07:35:16,446 - pyqt_ui - INFO - Error: No document handler available. Please select a document type and file path.
+2025-08-16 07:35:17,012 - pyqt_ui - INFO - [DEBUG] last_checkin_time: None (type: <class 'NoneType'>)
+2025-08-16 07:35:17,015 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 16, 7, 35, 17, 11132) (type: <class 'datetime.datetime'>)
+2025-08-16 07:35:18,544 - pyqt_ui - INFO - Error: No document handler available. Please select a document type and file path.
+2025-08-16 07:37:50,205 - splash_screen - INFO - Splash screen initialized
+2025-08-16 07:37:50,259 - __main__ - INFO - Starting Khaled's Attendance Tracker - PyQt Edition with Web Server
+2025-08-16 07:37:50,530 - splash_screen - INFO - Splash progress: 10% - Starting Khaled's Attendance Tracker...
+2025-08-16 07:37:50,537 - splash_screen - INFO - Splash progress: 25% - Initializing configuration...
+2025-08-16 07:37:50,549 - splash_screen - INFO - Splash progress: 40% - Loading document handler...
+2025-08-16 07:37:50,557 - splash_screen - INFO - Splash progress: 60% - Initializing web server for mobile access...
+2025-08-16 07:37:50,557 - __main__ - WARNING - Web server initialization failed: AttendanceWebServer.__init__() missing 1 required positional argument: 'pdf_handler'. Running in desktop-only mode.
+2025-08-16 07:37:50,560 - splash_screen - INFO - Splash progress: 80% - Creating modern user interface...
+2025-08-16 07:37:50,580 - pyqt_ui - INFO - Document type changed to: WORD
+2025-08-16 07:37:50,985 - __main__ - INFO - Using PyQt5 interface with mobile web server
+2025-08-16 07:37:50,989 - splash_screen - INFO - Splash progress: 95% - Finalizing setup...
+2025-08-16 07:37:51,106 - splash_screen - INFO - Splash progress: 100% - Loading complete!
+2025-08-16 07:37:56,667 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-16 07:37:56,668 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-16 07:37:56,669 - word_handler - INFO - Found day column at index 0
+2025-08-16 07:37:56,669 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-16 07:37:56,670 - word_handler - INFO - Found date column at index 1
+2025-08-16 07:37:56,670 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-16 07:37:56,671 - word_handler - INFO - Found time_in column at index 2
+2025-08-16 07:37:56,671 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-16 07:37:56,671 - word_handler - INFO - Found time_out column at index 3
+2025-08-16 07:37:56,672 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-16 07:37:56,680 - word_handler - INFO - Using empty row 1 for date: 2025-08-16
+2025-08-16 07:37:56,682 - word_handler - INFO - Filled date: 2025-08-16
+2025-08-16 07:37:56,683 - word_handler - INFO - Filled day: Saturday
+2025-08-16 07:37:56,684 - word_handler - INFO - Time In cell current content: ''
+2025-08-16 07:37:56,684 - word_handler - INFO - Filled time in with 'Weekend' - weekend
+2025-08-16 07:37:56,685 - word_handler - INFO - Time Out cell current content: ''
+2025-08-16 07:37:56,686 - word_handler - INFO - Filled time out with 'Weekend' - weekend
+2025-08-16 07:37:56,687 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250816_073756.docx
+2025-08-16 07:37:56,701 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250816_073756.docx
+2025-08-16 07:37:56,712 - pyqt_ui - INFO - Manual check-in recorded successfully
+2025-08-16 07:38:02,440 - pyqt_ui - INFO - [DEBUG] last_checkin_time: datetime.datetime(2025, 8, 16, 7, 37, 56, 645297) (type: <class 'datetime.datetime'>)
+2025-08-16 07:38:02,454 - pyqt_ui - INFO - [DEBUG] current_time: datetime.datetime(2025, 8, 16, 7, 38, 2, 374852) (type: <class 'datetime.datetime'>)
+2025-08-16 07:38:02,461 - pyqt_ui - INFO - [DEBUG] Using time_in for word: datetime.datetime(2025, 8, 16, 7, 37, 56, 645297) (type: <class 'datetime.datetime'>)
+2025-08-16 07:38:02,483 - word_handler - INFO - Added month 'August 2025' to document
+2025-08-16 07:38:02,500 - word_handler - INFO - Column 0: 'Day' -> 'day'
+2025-08-16 07:38:02,501 - word_handler - INFO - Found day column at index 0
+2025-08-16 07:38:02,508 - word_handler - INFO - Column 1: 'Date' -> 'date'
+2025-08-16 07:38:02,521 - word_handler - INFO - Found date column at index 1
+2025-08-16 07:38:02,524 - word_handler - INFO - Column 2: 'Time In' -> 'time in'
+2025-08-16 07:38:02,530 - word_handler - INFO - Found time_in column at index 2
+2025-08-16 07:38:02,532 - word_handler - INFO - Column 3: 'Time Out' -> 'time out'
+2025-08-16 07:38:02,533 - word_handler - INFO - Found time_out column at index 3
+2025-08-16 07:38:02,534 - word_handler - INFO - Identified columns: {'day': 0, 'date': 1, 'time_in': 2, 'time_out': 3}
+2025-08-16 07:38:02,583 - word_handler - INFO - Using empty row 1 for date: 2025-08-16
+2025-08-16 07:38:02,595 - word_handler - INFO - Filled date: 2025-08-16
+2025-08-16 07:38:02,596 - word_handler - INFO - Filled day: Saturday
+2025-08-16 07:38:02,597 - word_handler - INFO - Time In cell current content: ''
+2025-08-16 07:38:02,598 - word_handler - INFO - Filled time in with 'Weekend' - weekend
+2025-08-16 07:38:02,599 - word_handler - INFO - Time Out cell current content: ''
+2025-08-16 07:38:02,599 - word_handler - INFO - Filled time out with 'Weekend' - weekend
+2025-08-16 07:38:02,600 - word_handler - INFO - Creating new document: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250816_073802.docx
+2025-08-16 07:38:02,615 - word_handler - INFO - Word document filled successfully: C:\Users\khale\AppData\Roaming\AttendanceTracker\filled_docs\Attendance_filled_20250816_073802.docx
+2025-08-16 07:38:02,616 - pyqt_ui - INFO - Manual check-out recorded successfully
+2025-08-16 07:38:09,645 - pyqt_ui - INFO - Opened document: Attendance_filled_20250816_073802.docx

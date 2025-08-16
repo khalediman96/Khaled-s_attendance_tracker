@@ -1,0 +1,56 @@
+{
+    "pdf_path": "C:/Users/khale/Downloads/Attendance.pdf",
+    "document_path": "C:/Users/khale/Downloads/Attendance.docx",
+    "document_type": "pdf",
+    "output_directory": "filled_docs",
+    "field_names": {
+        "time_in": "time_in",
+        "time_out": "time_out",
+        "date": "date",
+        "employee_name": "employee_name"
+    },
+    "selected_month": "August 2025",
+    "auto_start": false,
+    "minimize_to_tray": true,
+    "log_events": true,
+    "log_directory": "logs",
+    "date_format": "%Y-%m-%d",
+    "time_format": "%H:%M:%S",
+    "pdf_fallback": {
+        "enabled": true,
+        "coordinates": {
+            "time_in": [
+                100,
+                500
+            ],
+            "time_out": [
+                300,
+                500
+            ],
+            "date": [
+                100,
+                550
+            ],
+            "employee_name": [
+                100,
+                600
+            ],
+            "month": [
+                100,
+                650
+            ],
+            "Month": [
+                100,
+                650
+            ],
+            "month_year": [
+                100,
+                650
+            ],
+            "Month/Year": [
+                100,
+                650
+            ]
+        }
+    }
+}

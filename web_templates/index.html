@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#007bff">
+    <title>📱 Khaled's Attendance Tracker</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- iOS PWA Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Attendance">
+    <link rel="apple-touch-icon" href="/static/icon-192.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/static/icon-192.png">
+    
+    <!-- Socket.IO -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    
+    <style>
+        html {
+            font-size: 16px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(120deg, #232526 0%, #414345 100%);
+            min-height: 100vh;
+            padding: 24px;
+            color: #222;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            background: rgb(240, 232, 232);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255,255,255,0.18);
+            overflow: hidden;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            
+            min-width: 0;
+        }
+        .header {
+            background: linear-gradient(120deg, #007bff 0%, #00c6ff 100%);
+            color: #fff;
+            padding: 36px 20px 24px 20px;
+            text-align: center;
+            border-bottom-left-radius: 32px;
+            border-bottom-right-radius: 32px;
+            box-shadow: 0 4px 24px rgba(0,123,255,0.10);
+        }
+        .header h1 {
+            font-size: 2.1rem;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .header .time-display {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 400;
+            color: #e0e7ef;
+        }
+        
+        .time-display {
+            font-size: 18px;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .status-card {
+            padding: 24px 20px;
+            background: rgba(255,255,255,0.65);
+            margin: 24px 0 18px 0;
+            border-radius: 18px;
+            border-left: 5px solid #007bff;
+            box-shadow: 0 2px 12px rgba(0,123,255,0.07);
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+        
+        .status-dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #28a745, #20c997);
+            box-shadow: 0 0 8px #28a74599;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .status-text {
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        .status-details {
+            font-size: 14px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+        
+        .actions {
+            padding: 0 20px 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        
+        .action-button {
+            width: 100%;
+            padding: 18px 0;
+            border: none;
+            border-radius: 16px;
+            font-size: 1.15rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow 0.18s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+        }
+        
+        .action-button:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.18);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s, height 0.3s;
+        }
+        
+        .action-button:active:before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .checkin-btn {
+            background: linear-gradient(120deg, #43e97b 0%, #38f9d7 100%);
+            color: #fff;
+            box-shadow: 0 4px 16px rgba(67,233,123,0.13);
+        }
+        
+        .checkin-btn:hover {
+            transform: scale(1.03) translateY(-2px);
+            box-shadow: 0 8px 28px rgba(67,233,123,0.18);
+        }
+        
+        .checkout-btn {
+            background: linear-gradient(120deg, #ff5858 0%, #f09819 100%);
+            color: #fff;
+            box-shadow: 0 4px 16px rgba(255,88,88,0.13);
+        }
+        
+        .checkout-btn:hover {
+            transform: scale(1.03) translateY(-2px);
+            box-shadow: 0 8px 28px rgba(255,88,88,0.18);
+        }
+        
+        .refresh-btn {
+            background: linear-gradient(120deg, #6f42c1 0%, #e83e8c 100%);
+            color: #fff;
+            box-shadow: 0 4px 16px rgba(111,66,193,0.13);
+        }
+        
+        .refresh-btn:hover {
+            transform: scale(1.03) translateY(-2px);
+            box-shadow: 0 8px 28px rgba(111,66,193,0.18);
+        }
+        
+        .action-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+        
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .recent-docs {
+            margin: 18px 0 0 0;
+            background: rgba(255,255,255,0.75);
+            border-radius: 16px;
+            overflow-x: auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+            padding-bottom: 8px;
+            display: flex;
+            flex-direction: column;
+            white-space: normal;
+        }
+        
+        .recent-docs h3 {
+            padding: 15px 20px;
+            background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+            margin: 0;
+            font-size: 1.08rem;
+            color: #495057;
+            border-bottom: 1px solid #dee2e6;
+            font-weight: 700;
+        }
+        
+        .doc-item {
+            padding: 15px 20px;
+            border-bottom: 1px solid #f1f3f4;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            min-width: 0;
+            max-width: 100%;
+            margin-right: 0;
+            transition: background 0.18s;
+        }
+        .doc-item:hover {
+            background: rgba(0,123,255,0.07);
+        }
+        
+        .doc-item:last-child {
+            border-bottom: none;
+        }
+        
+        .doc-info {
+            flex: 1 1 auto;
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .doc-name {
+            font-weight: 700;
+            color: #22223b;
+            margin-bottom: 2px;
+            min-width: 120px;
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: center;
+        }
+        .doc-name:before {
+            content: '📄';
+            margin-right: 6px;
+        }
+        
+        .doc-meta {
+            font-size: 12px;
+            color: #6c757d;
+        }
+        
+        .doc-type {
+            background: linear-gradient(120deg, #6366f1 0%, #60a5fa 100%);
+            color: #fff;
+            padding: 3px 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+        .doc-actions {
+           display: flex;
+           flex-direction: row;
+           gap: 10px;
+        }
+            .notification {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100px);
+    opacity: 0;
+    background: linear-gradient(120deg, #22d3ee 0%, #38bdf8 100%);
+    color: #fff;
+    padding: 16px 28px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(34,211,238,0.13);
+    z-index: 1000;
+    transition: transform 0.35s cubic-bezier(.4,2,.6,1), opacity 0.35s cubic-bezier(.4,2,.6,1);
+    max-width: 90vw;
+    text-align: center;
+    font-weight: 700;
+    pointer-events: none;
+}
+.notification.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+.notification.error {
+    background: linear-gradient(120deg, #f472b6 0%, #f87171 100%);
+}
+.notification.error {
+    background: linear-gradient(120deg, #f472b6 0%, #f87171 100%);
+}
+.view-btn {
+    background: linear-gradient(120deg, #6366f1 0%, #60a5fa 100%);
+    color: #fff;
+    padding: 6px 16px;
+    font-size: 0.98rem;
+    border-radius: 8px;
+    text-decoration: none;
+    min-width: 90px;
+    box-shadow: 0 1px 4px rgba(99,102,241,0.08);
+}
+.download-btn {
+    background: linear-gradient(120deg, #22d3ee 0%, #38bdf8 100%);
+    color: #fff;
+    padding: 6px 16px;
+    font-size: 0.98rem;
+    border-radius: 8px;
+    text-decoration: none;
+    min-width: 90px;
+    box-shadow: 0 1px 4px rgba(34,211,238,0.08);
+}
+        
+        .connection-status {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            z-index: 1001;
+        }
+        
+        .connection-status.connected {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .connection-status.disconnected {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .install-prompt {
+            background: #007bff;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .install-prompt:hover {
+            background: #0056b3;
+        }
+        
+        .install-prompt.hidden {
+            display: none;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+                min-height: 100vh;
+                width: 100vw;
+                padding-left: 0;
+                padding-right: 0;
+                max-width: 100vw;
+            }
+            .recent-docs {
+                margin: 10px 0;
+                border-radius: 0;
+                padding-bottom: 4px;
+            }
+            .doc-item {
+                padding: 10px 8px;
+                font-size: 0.95rem;
+            }
+            .header {
+                padding: 20px 8px;
+            }
+            body {
+                padding: 0;
+            }
+            html {
+                font-size: 15px;
+            }
+            .notification {
+                font-size: 0.98rem;
+                padding: 12px 8vw;
+                max-width: 98vw;
+            }
+        }
+        @media (max-width: 340px) {
+            html {
+                font-size: 13px;
+            }
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Install Prompt -->
+        <div id="installPrompt" class="install-prompt hidden">
+            📱 Install this app on your home screen for quick access!
+        </div>
+        
+        <!-- Header -->
+        <div class="header">
+            <h1>🕒 Attendance Tracker</h1>
+            <div class="time-display" id="currentTime"></div>
+        </div>
+        
+        <!-- Connection Status -->
+        <div id="connectionStatus" class="connection-status disconnected">
+            Connecting...
+        </div>
+        
+        <!-- Status Card -->
+        <div class="status-card">
+            <div class="status-indicator">
+                <div class="status-dot"></div>
+                <span class="status-text">System Online</span>
+            </div>
+            <div class="status-details" id="systemInfo">
+                Loading system information...
+            </div>
+        </div>
+        
+        <!-- Action Buttons -->
+        <div class="actions">
+            <button class="action-button checkin-btn" id="checkinBtn">
+                <span>🟢 Check In</span>
+            </button>
+            
+            <button class="action-button checkout-btn" id="checkoutBtn">
+                <span>🔴 Check Out</span>
+            </button>
+            
+            <button class="action-button refresh-btn" id="refreshBtn">
+                <span>🔄 Refresh Status</span>
+            </button>
+        </div>
+        
+        <!-- Recent Documents -->
+        <div class="recent-docs">
+            <h3>📄 Recent Documents</h3>
+            <div id="recentDocsList">
+                <div class="doc-item">
+                    <div class="doc-info">
+                        <div class="doc-name">Loading...</div>
+                        <div class="doc-meta">Please wait</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+    
+    <script>
+        // PWA Installation
+        let deferredPrompt;
+        const installPrompt = document.getElementById('installPrompt');
+        
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            installPrompt.classList.remove('hidden');
+        });
+        
+        installPrompt.addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                deferredPrompt = null;
+                installPrompt.classList.add('hidden');
+            }
+        });
+        
+        // Socket.IO connection
+        const socket = io();
+        const connectionStatus = document.getElementById('connectionStatus');
+        
+        socket.on('connect', () => {
+            connectionStatus.textContent = 'Connected';
+            connectionStatus.className = 'connection-status connected';
+            showNotification('Connected to attendance tracker', 'success');
+        });
+        
+        socket.on('disconnect', () => {
+            connectionStatus.textContent = 'Disconnected';
+            connectionStatus.className = 'connection-status disconnected';
+        });
+        
+        socket.on('attendance_update', (data) => {
+            showNotification(`${data.message}`, 'success');
+            loadRecentDocuments();
+        });
+        
+        // Time display
+        function updateTime() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString('en-US', {
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+            const dateString = now.toLocaleDateString('en-US', {
+                weekday: 'long',
+                month: 'short',
+                day: 'numeric'
+            });
+            document.getElementById('currentTime').textContent = `${timeString} • ${dateString}`;
+        }
+        
+        setInterval(updateTime, 1000);
+        updateTime();
+        
+        // Notification system
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = `notification ${type === 'error' ? 'error' : ''}`;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Button handlers
+        function setButtonLoading(button, loading) {
+            const span = button.querySelector('span');
+            if (loading) {
+                button.disabled = true;
+                span.innerHTML = '<div class="loading"></div>';
+            } else {
+                button.disabled = false;
+                span.innerHTML = button.id === 'checkinBtn' ? '🟢 Check In' :
+                               button.id === 'checkoutBtn' ? '🔴 Check Out' :
+                               '🔄 Refresh Status';
+            }
+        }
+        
+        // API calls
+        async function checkIn() {
+            const button = document.getElementById('checkinBtn');
+            setButtonLoading(button, true);
+            
+            try {
+                const response = await fetch('/api/checkin', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showNotification(data.message, 'success');
+                    loadRecentDocuments();
+                } else {
+                    showNotification(data.error || 'Check-in failed', 'error');
+                }
+            } catch (error) {
+                showNotification('Network error during check-in', 'error');
+                console.error('Check-in error:', error);
+            } finally {
+                setButtonLoading(button, false);
+            }
+        }
+        
+        async function checkOut() {
+            const button = document.getElementById('checkoutBtn');
+            setButtonLoading(button, true);
+            
+            try {
+                const response = await fetch('/api/checkout', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showNotification(data.message, 'success');
+                    loadRecentDocuments();
+                } else {
+                    showNotification(data.error || 'Check-out failed', 'error');
+                }
+            } catch (error) {
+                showNotification('Network error during check-out', 'error');
+                console.error('Check-out error:', error);
+            } finally {
+                setButtonLoading(button, false);
+            }
+        }
+        
+        async function refreshStatus() {
+            const button = document.getElementById('refreshBtn');
+            setButtonLoading(button, true);
+            
+            try {
+                await Promise.all([loadSystemStatus(), loadRecentDocuments()]);
+                showNotification('Status refreshed', 'success');
+            } catch (error) {
+                showNotification('Failed to refresh status', 'error');
+                console.error('Refresh error:', error);
+            } finally {
+                setButtonLoading(button, false);
+            }
+        }
+        
+        async function loadSystemStatus() {
+            try {
+                const response = await fetch('/api/status');
+                const data = await response.json();
+                
+                document.getElementById('systemInfo').innerHTML = `
+                    <strong>Document:</strong> ${data.document_path}<br>
+                    <strong>Type:</strong> ${data.document_type.toUpperCase()}<br>
+                    <strong>Month:</strong> ${data.month}
+                `;
+            } catch (error) {
+                console.error('Error loading system status:', error);
+            }
+        }
+        
+        async function loadRecentDocuments() {
+            try {
+                const response = await fetch('/api/recent-documents');
+                const data = await response.json();
+                
+                const docsList = document.getElementById('recentDocsList');
+                
+                if (data.documents && data.documents.length > 0) {
+                    docsList.innerHTML = data.documents.map(doc => `
+                        <div class="doc-item">
+                            <div class="doc-info">
+                                <div class="doc-name">${doc.name}</div>
+                                <div class="doc-meta">${doc.modified} • ${doc.size}</div>
+                            </div>
+                            <div class="doc-type">${doc.type}</div>
+                            <div class="doc-actions">
+                                <a href="/api/download/${encodeURIComponent(doc.name)}" class="action-button view-btn" target="_blank">👁️ View</a>
+                                <a href="/api/download/${encodeURIComponent(doc.name)}" class="action-button download-btn" download>⬇️ Download</a>
+                            </div>
+                        </div>
+                    `).join('');
+                } else {
+                    docsList.innerHTML = `
+                        <div class="doc-item">
+                            <div class="doc-info">
+                                <div class="doc-name">No documents yet</div>
+                                <div class="doc-meta">Record your first attendance</div>
+                            </div>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error('Error loading recent documents:', error);
+            }
+        }
+        
+        // Event listeners
+        document.getElementById('checkinBtn').addEventListener('click', checkIn);
+        document.getElementById('checkoutBtn').addEventListener('click', checkOut);
+        document.getElementById('refreshBtn').addEventListener('click', refreshStatus);
+        
+        // Initial load
+        loadSystemStatus();
+        loadRecentDocuments();
+        
+        // Periodic refresh
+        setInterval(() => {
+            loadSystemStatus();
+            loadRecentDocuments();
+        }, 30000); // Refresh every 30 seconds
+        
+        // Haptic feedback for iOS
+        function hapticFeedback() {
+            if (navigator.vibrate) {
+                navigator.vibrate(50);
+            }
+        }
+        
+        // Add haptic feedback to buttons
+        document.querySelectorAll('.action-button').forEach(button => {
+            button.addEventListener('click', hapticFeedback);
+        });
+    </script>
+    <script>
+    // Register service worker for PWA/offline support
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+    </script>
+</body>
+</html>
